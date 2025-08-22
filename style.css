@@ -1,0 +1,44 @@
+body{
+    background-color: brown;
+    height: 100%;
+    width: 100%;
+} 
+ table{
+    text-align: center;
+    font-size: x-large;
+    border-collapse:collapse ;
+ empty-cells: show;
+}
+#table{
+    position: absolute;
+    top: 180px;
+    left: 290px;
+ 
+}
+.emptytd{
+    empty-cells:  hide;
+}
+tr:nth-child(even){
+    background-color: azure;
+}
+tr:nth-child(odd){
+    background-color: darkseagreen;
+}
+th{
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    color: white;
+    padding: 10px;
+    background-color:rgb(0, 120, 70);
+    outline: 5px solid black;
+     
+    
+}
+td{
+    font-family: monospace;
+    border: 5px solid black;
+    outline: 2px solid black;
+    
+}
+ 
